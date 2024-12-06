@@ -1,7 +1,7 @@
-package com.nickcourse.chat.config;
+package com.nickcourse.chat.config.websocket;
 
-import com.nickcourse.chat.model.ChatMessage;
-import com.nickcourse.chat.model.MessageType;
+import com.nickcourse.chat.model.websocket.ChatMessage;
+import com.nickcourse.chat.model.websocket.MessageType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.EventListener;

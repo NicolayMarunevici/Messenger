@@ -1,4 +1,4 @@
-package com.nickcourse.chat.config;
+package com.nickcourse.chat.config.websocket;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
