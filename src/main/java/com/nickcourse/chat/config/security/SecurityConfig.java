@@ -1,4 +1,4 @@
-package com.nickcourse.chat.config;
+package com.nickcourse.chat.config.security;
 
 import com.nickcourse.chat.security.JwtAuthenticationEntryPoint;
 import com.nickcourse.chat.security.JwtAuthenticationFilter;
@@ -53,7 +53,9 @@ public class SecurityConfig {
   public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
     http.csrf(AbstractHttpConfigurer::disable)
         .authorizeHttpRequests(
-            authorize -> authorize.requestMatchers(HttpMethod.GET, "/api/**").permitAll()
+            authorize -> authorize
+                .requestMatchers("/**").permitAll()
+                .requestMatchers(HttpMethod.GET, "/api/**").permitAll()
                 .requestMatchers("/api/auth/**").permitAll()
                 .anyRequest().authenticated()
         ).exceptionHandling(

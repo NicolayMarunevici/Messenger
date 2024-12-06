@@ -1,7 +1,7 @@
-package com.nickcourse.chat.repository;
+package com.nickcourse.chat.repository.security;
 
 
-import com.nickcourse.chat.model.User;
+import com.nickcourse.chat.model.security.User;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
 

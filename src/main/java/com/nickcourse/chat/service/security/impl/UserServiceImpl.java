@@ -1,9 +1,9 @@
-package com.nickcourse.chat.service.impl;
+package com.nickcourse.chat.service.security.impl;
 
 import com.nickcourse.chat.exception.UserException;
-import com.nickcourse.chat.model.User;
-import com.nickcourse.chat.repository.UserRepository;
-import com.nickcourse.chat.service.UserService;
+import com.nickcourse.chat.model.security.User;
+import com.nickcourse.chat.repository.security.UserRepository;
+import com.nickcourse.chat.service.security.UserService;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

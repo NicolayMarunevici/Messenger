@@ -1,8 +1,8 @@
 package com.nickcourse.chat.security;
 
 import com.nickcourse.chat.exception.UserException;
-import com.nickcourse.chat.model.User;
-import com.nickcourse.chat.repository.UserRepository;
+import com.nickcourse.chat.model.security.User;
+import com.nickcourse.chat.repository.security.UserRepository;
 import java.util.Set;
 import java.util.stream.Collectors;
 import org.springframework.http.HttpStatus;

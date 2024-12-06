@@ -1,7 +1,7 @@
-package com.nickcourse.chat.controller;
+package com.nickcourse.chat.controller.security;
 
-import com.nickcourse.chat.model.User;
-import com.nickcourse.chat.service.impl.UserServiceImpl;
+import com.nickcourse.chat.model.security.User;
+import com.nickcourse.chat.service.security.impl.UserServiceImpl;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

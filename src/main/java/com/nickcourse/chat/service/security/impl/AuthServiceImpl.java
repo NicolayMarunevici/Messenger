@@ -1,14 +1,14 @@
-package com.nickcourse.chat.service.impl;
+package com.nickcourse.chat.service.security.impl;
 
 import com.nickcourse.chat.exception.UserException;
-import com.nickcourse.chat.model.Role;
-import com.nickcourse.chat.model.User;
+import com.nickcourse.chat.model.security.Role;
+import com.nickcourse.chat.model.security.User;
 import com.nickcourse.chat.model.dto.LoginDto;
 import com.nickcourse.chat.model.dto.RegisterDto;
-import com.nickcourse.chat.repository.RoleRepository;
-import com.nickcourse.chat.repository.UserRepository;
+import com.nickcourse.chat.repository.security.RoleRepository;
+import com.nickcourse.chat.repository.security.UserRepository;
 import com.nickcourse.chat.security.JwtTokenProvider;
-import com.nickcourse.chat.service.AuthService;
+import com.nickcourse.chat.service.security.AuthService;
 import java.util.HashSet;
 import java.util.Set;
 import lombok.extern.slf4j.Slf4j;

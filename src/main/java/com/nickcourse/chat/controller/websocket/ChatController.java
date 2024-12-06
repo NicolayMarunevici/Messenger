@@ -1,6 +1,6 @@
-package com.nickcourse.chat.controller;
+package com.nickcourse.chat.controller.websocket;
 
-import com.nickcourse.chat.model.ChatMessage;
+import com.nickcourse.chat.model.websocket.ChatMessage;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class ChatController {
+
 
   @MessageMapping("/chat.sendMessage")
   @SendTo("/topic/public")

@@ -1,9 +1,9 @@
-package com.nickcourse.chat.controller;
+package com.nickcourse.chat.controller.security;
 
 import com.nickcourse.chat.model.dto.JwtAuthResponse;
 import com.nickcourse.chat.model.dto.LoginDto;
 import com.nickcourse.chat.model.dto.RegisterDto;
-import com.nickcourse.chat.service.AuthService;
+import com.nickcourse.chat.service.security.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

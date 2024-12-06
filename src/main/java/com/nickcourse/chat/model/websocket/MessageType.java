@@ -1,4 +1,4 @@
-package com.nickcourse.chat.model;
+package com.nickcourse.chat.model.websocket;
 
 public enum MessageType {
 

@@ -1,6 +1,6 @@
-package com.nickcourse.chat.service;
+package com.nickcourse.chat.service.security;
 
-import com.nickcourse.chat.model.User;
+import com.nickcourse.chat.model.security.User;
 import java.util.List;
 import org.springframework.stereotype.Service;
 

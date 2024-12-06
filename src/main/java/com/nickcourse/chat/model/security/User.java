@@ -1,4 +1,4 @@
-package com.nickcourse.chat.model;
+package com.nickcourse.chat.model.security;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
